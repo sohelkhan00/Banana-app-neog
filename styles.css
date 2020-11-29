@@ -7,6 +7,7 @@
 
 * {
     box-sizing: border-box;
+    
 }
 
 body{
@@ -14,6 +15,7 @@ body{
     color: #333333;
     margin: 0;
 }
+
 
 footer{
     background-color: var(--yellow);
@@ -25,25 +27,31 @@ footer{
 }
 
 footer p{
-    margin: auto 400px;
+    
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
 }
 
 #text-input{
-    width: 100%;
+    width: 80vh;
     height: 20vh;
     font-family: inherit;
     font-size: large;
+    display: block;
 }
 
 #text-output{
     border: 1px solid black;
     height: 10vh;
+    width: 80vh;
     font-size: large;
     padding: 1rem;
 }
 
 main{
     margin: 50px 400px;
+    
 }
 
 nav{
@@ -51,14 +59,16 @@ nav{
     text-align: center;
     width: 100%;
     padding: 1rem;
+    position: fixed;
+    top: 0;
 }
 
 #btn-translate{
-    border: 0;
+    border: none;
     background-color: var(--yellow);
     padding: 1rem 2rem; 
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: 1rem 0rem;
     font-family: inherit;
     font-size: large;
+    box-sizing: border-box;
 }
