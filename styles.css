@@ -32,6 +32,7 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    max-height: 100px;
 }
 
 #btn-translate{
@@ -64,5 +65,5 @@ textarea{
 }
 
 p{
-    margin: auto 50vh;
+    margin: auto 100px;
 }
